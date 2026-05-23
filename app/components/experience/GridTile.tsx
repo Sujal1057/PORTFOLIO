@@ -6,7 +6,6 @@ import gsap from "gsap";
 import { useEffect, useRef } from 'react';
 import { isMobile } from 'react-device-detect';
 import * as THREE from 'three';
-import { TriangleGeometry } from './Triangle';
 
 interface GridTileProps {
   id: string;
